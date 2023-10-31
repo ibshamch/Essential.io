@@ -1,4 +1,15 @@
+@keyframes TopToBottom {
+  0% {
+    opacity: 50%;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
 .main-body {
+  animation: TopToBottom 1s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
