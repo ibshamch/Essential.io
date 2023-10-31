@@ -1,4 +1,5 @@
 import Header from "./Components/header/header.component";
+import "./App.scss";
 const App = () => {
   const navLinks = ["Product", "Resource", "Our Work"];
   return (

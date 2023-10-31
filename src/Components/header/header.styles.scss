@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navigation-list,
+  .favicon,
+  .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8em;
+  }
+}
+
+.favicon-img,
+.menu-bar {
+  width: 45px;
+}
+
+.header-btn-download {
+  outline: none;
+  border: black 2px solid;
+  padding: 0.7em 1.2em;
+  border-radius: 2em;
+  background-color: white;
+  font-weight: 700;
+}
