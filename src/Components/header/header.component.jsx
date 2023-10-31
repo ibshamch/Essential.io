@@ -11,7 +11,7 @@ const Header = ({ navLinks }) => {
       </div>
       <div className="navigation-list">
         {navLinks.map((link, i) => {
-          return <NavigationLink key={i} link={link} />;
+          return <NavigationLink key={i} name={link.name} link={link.link} />;
         })}
       </div>
       <div className="header-buttons">

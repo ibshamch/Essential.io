@@ -1,6 +1,11 @@
-const NavigationLink = ({ link }) => {
-  
-  return <div className="link">{link} </div>;
+import { Link } from "react-router-dom";
+
+const NavigationLink = ({ link, name }) => {
+  return (
+    <Link to={link} className="link">
+      {name}
+    </Link>
+  );
 };
 
 export default NavigationLink;

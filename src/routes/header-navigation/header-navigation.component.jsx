@@ -4,7 +4,7 @@ import { Fragment } from "react";
 const HeaderNavigation = ({ navLinks }) => {
   return (
     <Fragment>
-      <Header navLinks={navLinks} />;
+      <Header navLinks={navLinks} />
       <Outlet />
     </Fragment>
   );
