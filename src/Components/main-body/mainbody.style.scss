@@ -1,0 +1,77 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .main-body-btn {
+    cursor: pointer;
+    margin-top: 0.4em;
+    border-radius: 2em;
+    font-size: 1rem;
+    border: black solid 2px;
+    background-color: black;
+    color: white;
+    padding: 1em 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    .button-line {
+      height: 0;
+      width: 20px;
+      border: white solid 1px;
+    }
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .line {
+      border: 1px solid black;
+      width: 20px;
+      height: 0;
+    }
+
+    .api-integrate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.4em;
+    }
+    .main-body-heading {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    .main-body-desc {
+      font-weight: 300;
+      margin-top: 0;
+    }
+  }
+
+  .card-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    .card {
+      padding: 1em 1.2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .extras-container {
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+    .extras {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      .tick {
+        width: 30px;
+      }
+    }
+  }
+}

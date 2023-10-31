@@ -16,6 +16,7 @@
 .favicon-img,
 .menu-bar {
   width: 45px;
+  cursor: pointer;
 }
 
 .header-btn-download {
@@ -25,4 +26,13 @@
   border-radius: 2em;
   background-color: white;
   font-weight: 700;
+}
+.header-btn-download,
+.link {
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
 }
